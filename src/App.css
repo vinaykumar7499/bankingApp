@@ -1,0 +1,211 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.box{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: url('/public/sl_020622_4930_29.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  justify-content:center ;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+}
+.h1{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.login{
+   display: flex;
+   flex-direction: column;
+   color: #fff;
+   height: 400px;
+   padding: 2rem;
+   border-radius: 12px;
+   gap: 0.5rem;
+   background-color:rgba(0, 0, 0, 0.644);
+   width: 400px;
+}
+.login h1{
+  text-align: center;
+}
+.login input{
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  padding: 1rem;
+  
+}
+button{
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+}
+
+.Acc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: url('/public/SL-070723-61140-18.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.Acc h1{
+    margin: 2rem 0 ;
+}
+.accbox{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  gap: 2rem;
+  padding: 2rem;
+  color: #000;
+  background: radial-gradient(circle, rgba(238,174,219,1) 0%, rgba(148,195,233,1) 100%);
+  border-radius: 12px;
+}
+.accbox select{
+  height: 40px;
+  border: 1px solid black;
+  width: 150px;
+  padding:  0 1rem;
+  border-radius: 12px;
+}
+.accbox input{
+  height: 40px;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #000;
+}
+.accbox button{
+  background-color: #000;
+  color: #fff;
+}
+.dash{
+  height: 100vh;
+}
+.button-grp{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 2rem;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(107,0,228,1) 0%, rgba(0,9,18,1) 100%);
+  align-items: center;
+  gap: 5%;
+}
+.button-grp button{
+  width: 150px;
+  cursor: pointer;
+}
+.btn{
+  display: flex;
+  gap: 2rem;
+}
+.sidebar{
+  background: radial-gradient(circle, rgba(238,174,219,1) 0%, rgba(148,195,233,1) 100%);
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 85.6vh;
+  flex-direction: column;
+}
+.sidebar button {
+  cursor: pointer;
+  width: 180px;
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+}
+
+.sidebar button:hover {
+  box-shadow: 0 0 10px rgba(0, 34, 255, 0.7), 0 0 20px rgba(0, 34, 255, 0.7), 0 0 30px rgba(0, 255, 255, 0.7); /* Glow effect */
+}
+
+.sidebar button a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  height: 40px;
+}
+.view{
+  position: absolute;
+  top: 7rem;
+  right: 0;
+  bottom: 0;
+  width: 83%;
+  padding: 0 2rem;
+  height: 83vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.t{
+  line-height: 3rem;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(137,150,221,1) 0%, rgba(205,247,216,1) 100%);
+  border: 1px solid #000;
+  
+}
+
+.t th{
+  border: 1px solid #000;
+
+}
+.t td {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+
+.decont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('/public/SL-070723-61140-18.jpg');
+  background-size: cover;
+}
+.deposit{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 400px;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 2% 3%;
+  gap: 1rem;
+}
+.deposit h1{
+  color: rgb(32, 82, 232);
+  font-weight: 600;
+}
+
+.deposit input{
+  height: 40px;
+  padding:  0 1rem;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+.deposit button{
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
