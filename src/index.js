@@ -14,7 +14,7 @@ import Fundtransfer from './fundtransfer';
 const appRouter = createBrowserRouter([
    
   {
-    path:'/',
+    path:'/Login',
     element:<Login/>
   },
    {
