@@ -5,7 +5,6 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Login from './Login';
 import CreateAccount from './createAcc';
 import Dashboard from './Dashboard';
-import Header from './header';
 import Deposit from './deposite';
 import Withdraw from './withdraw';
 import Fundtransfer from './fundtransfer';
@@ -14,7 +13,7 @@ import Fundtransfer from './fundtransfer';
 const appRouter = createBrowserRouter([
    
   {
-    path:'/Login',
+    path:'/',
     element:<Login/>
   },
    {
@@ -43,7 +42,7 @@ const appRouter = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <RouterProvider router={appRouter}><Header/></RouterProvider>
+   <RouterProvider router={appRouter} basename="bankingApp"><Login/></RouterProvider>
   </React.StrictMode>
 );
 reportWebVitals();
